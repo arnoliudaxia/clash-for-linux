@@ -184,7 +184,7 @@ echo -e "Secret: ${Secret}"
 echo ''
 
 # 添加环境变量(root权限)
-cat> $HOME/.zshrc<<EOF
+cat>> $HOME/.zshrc<<EOF
 # 开启系统代理
 function proxy_on() {
 	export http_proxy=http://127.0.0.1:7890
